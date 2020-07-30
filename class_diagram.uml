@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>PaooGame</OriginalElement>
+  <nodes>
+    <node x="951.0" y="1201.0">PaooGame.States.State</node>
+    <node x="324.0" y="860.0">PaooGame.Items.Villain</node>
+    <node x="1022.0" y="1826.0">PaooGame.Game</node>
+    <node x="1335.0" y="1826.0">PaooGame.RefLinks</node>
+    <node x="0.0" y="1569.0">PaooGame.States.WinState</node>
+    <node x="582.0" y="0.0">PaooGame.Items.Item</node>
+    <node x="1534.0" y="2441.0">PaooGame.Utils.Utils</node>
+    <node x="420.0" y="2662.0">PaooGame.Graphics.Assets</node>
+    <node x="823.5" y="574.0">PaooGame.Items.PixieDust</node>
+    <node x="1648.0" y="1826.0">PaooGame.Input.MyMouse</node>
+    <node x="668.0" y="1461.0">PaooGame.States.PlayState</node>
+    <node x="334.0" y="1569.0">PaooGame.States.NextLevelState</node>
+    <node x="645.0" y="968.0">PaooGame.Items.Checkpoint</node>
+    <node x="605.0" y="2441.0">PaooGame.GameWindow.GameWindow</node>
+    <node x="1159.0" y="2441.0">PaooGame.Graphics.SpriteSheet</node>
+    <node x="274.0" y="2441.0">PaooGame.Items.Controller</node>
+    <node x="2012.0" y="1569.0">PaooGame.States.AboutState</node>
+    <node x="675.5" y="635.0">PaooGame.Items.StaticItem</node>
+    <node x="874.0" y="2441.0">PaooGame.Input.KeyManager</node>
+    <node x="708.0" y="1826.0">PaooGame.Maps.Map</node>
+    <node x="1344.0" y="1569.0">PaooGame.States.MenuState</node>
+    <node x="2114.0" y="1826.0">PaooGame.UserInterface.UserInterfaceManager</node>
+    <node x="2122.0" y="2441.0">PaooGame.Graphics.ImageLoader</node>
+    <node x="0.0" y="1826.0">PaooGame.UserInterface.UserInterfaceObject</node>
+    <node x="54.5" y="2292.0">PaooGame.UserInterface.UserInterfaceImageButton</node>
+    <node x="1838.0" y="2441.0">PaooGame.Graphics.Animations</node>
+    <node x="0.0" y="2441.0">PaooGame.Graphics.GameCamera</node>
+    <node x="1010.0" y="1557.0">PaooGame.States.SettingsState</node>
+    <node x="240.25" y="514.0">PaooGame.Items.Character</node>
+    <node x="223.0" y="2662.0">PaooGame.UserInterface.ClickListener</node>
+    <node x="1678.0" y="1569.0">PaooGame.States.GameOverState</node>
+    <node x="0.0" y="896.0">PaooGame.Items.Hero</node>
+    <node x="394.0" y="1826.0">PaooGame.Items.ItemManager</node>
+    <node x="0.0" y="2662.0">PaooGame.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="PaooGame.States.AboutState" target="PaooGame.States.State">
+      <point x="0.0" y="-52.0" />
+      <point x="2169.0" y="1421.0" />
+      <point x="1352.142857142857" y="1421.0" />
+      <point x="185.1428571428571" y="100.0" />
+    </edge>
+    <edge source="PaooGame.Items.Villain" target="PaooGame.Items.Character">
+      <point x="0.0" y="-148.0" />
+      <point x="474.5" y="835.0" />
+      <point x="385.75" y="835.0" />
+      <point x="48.5" y="148.0" />
+    </edge>
+    <edge source="PaooGame.Items.PixieDust" target="PaooGame.Items.Item">
+      <point x="0.0" y="-88.0" />
+      <point x="942.5" y="489.0" />
+      <point x="844.5" y="489.0" />
+      <point x="105.0" y="232.0" />
+    </edge>
+    <edge source="PaooGame.Items.Checkpoint" target="PaooGame.Items.StaticItem">
+      <point x="0.0" y="-40.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="PaooGame.States.GameOverState" target="PaooGame.States.State">
+      <point x="0.0" y="-52.0" />
+      <point x="1835.0" y="1431.0" />
+      <point x="1290.4285714285713" y="1431.0" />
+      <point x="123.42857142857133" y="100.0" />
+    </edge>
+    <edge source="PaooGame.Items.StaticItem" target="PaooGame.Items.Item">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="232.0" />
+    </edge>
+    <edge source="PaooGame.Items.Character" target="PaooGame.Items.Item">
+      <point x="0.0" y="-148.0" />
+      <point x="337.25" y="489.0" />
+      <point x="634.5" y="489.0" />
+      <point x="-105.0" y="232.0" />
+    </edge>
+    <edge source="PaooGame.States.WinState" target="PaooGame.States.State">
+      <point x="0.0" y="-52.0" />
+      <point x="157.0" y="1421.0" />
+      <point x="981.8571428571429" y="1421.0" />
+      <point x="-185.1428571428571" y="100.0" />
+    </edge>
+    <edge source="PaooGame.States.SettingsState" target="PaooGame.States.State">
+      <point x="0.0" y="-64.0" />
+      <point x="0.0" y="100.0" />
+    </edge>
+    <edge source="PaooGame.States.MenuState" target="PaooGame.States.State">
+      <point x="0.0" y="-52.0" />
+      <point x="1501.0" y="1441.0" />
+      <point x="1228.7142857142858" y="1441.0" />
+      <point x="61.71428571428578" y="100.0" />
+    </edge>
+    <edge source="PaooGame.Items.Hero" target="PaooGame.Items.Character">
+      <point x="0.0" y="-112.0" />
+      <point x="152.0" y="835.0" />
+      <point x="288.75" y="835.0" />
+      <point x="-48.5" y="148.0" />
+    </edge>
+    <edge source="PaooGame.States.PlayState" target="PaooGame.States.State">
+      <point x="0.0" y="-160.0" />
+      <point x="829.0" y="1441.0" />
+      <point x="1105.2857142857142" y="1441.0" />
+      <point x="-61.71428571428578" y="100.0" />
+    </edge>
+    <edge source="PaooGame.States.NextLevelState" target="PaooGame.States.State">
+      <point x="0.0" y="-52.0" />
+      <point x="491.0" y="1431.0" />
+      <point x="1043.5714285714284" y="1431.0" />
+      <point x="-123.42857142857156" y="100.0" />
+    </edge>
+    <edge source="PaooGame.UserInterface.UserInterfaceImageButton" target="PaooGame.UserInterface.UserInterfaceObject">
+      <point x="0.0" y="-52.0" />
+      <point x="0.0" y="208.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5436084733382031" x="1211.9160289115644" y="1396.4930126310132" />
+  <SelectedNodes>
+    <node>PaooGame.States.MenuState</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
